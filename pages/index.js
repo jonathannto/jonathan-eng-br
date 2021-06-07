@@ -42,7 +42,7 @@ export default function Home() {
           <div className="hero min-h-screen fonte-branca  ">
             <div className="flex-col hero-content lg:flex-row-reverse">
                   <img src="https://pbs.twimg.com/profile_images/1388308127200784387/blQNlISm_400x400.jpg" 
-                      className="rounded-lg"></img>
+                      className="mask mask-circle"></img>
                     <div>
                       <h1 className="mb-5 text-5xl font-bold">
                         Bem Vindo(a)!
@@ -56,8 +56,8 @@ export default function Home() {
             </div>
           </div>
         <div className="divider"></div> 
-        <div className="grid h-20 card bg-base-300 rounded-box place-items-center">
-          footer
+        <div className="grid h-20 card bg-base-300 rounded-box place-items-center fonte-branca">
+          jonathan.eng.br - 2021
         </div>
        
       
