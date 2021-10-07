@@ -4,12 +4,12 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full bg-base-300">
      
-          <Head>
-            <title>Jonathan Nascimento - Site</title>
+        <Head>
+            <title>Jonathan  Silva do Nascimento</title>
             <link rel="icon" href="/favicon.ico" />
-          </Head>
+        </Head>
         
-          <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
+        <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
             <div class="flex-1 px-2 mx-2 lg:flex-none">
               <span class="text-lg font-bold">
               Jonathan Nascimento
@@ -39,10 +39,12 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="hero min-h-screen fonte-branca  ">
+        
+
+        <div className="hero min-h-screen fonte-branca  ">
             <div className="flex-col hero-content lg:flex-row-reverse">
                   <img src="https://pbs.twimg.com/profile_images/1388308127200784387/blQNlISm_400x400.jpg" 
-                      className="mask mask-circle"></img>
+                      className="mask mask-circle"/>
                     <div>
                       <h1 className="mb-5 text-5xl font-bold">
                         Bem Vindo(a)!
@@ -55,6 +57,48 @@ export default function Home() {
                     </div>
             </div>
           </div>
+          <div className="flex-col hero-content lg:flex-row-reverse">
+            <div class="card text-center shadow-2xl">
+              <figure class="px-10 pt-10">
+                <img src="https://picsum.photos/id/1005/400/250" class="rounded-xl" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">shadow, center, padding</h2>
+                <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+                <div class="justify-center card-actions">
+                  <button class="btn btn-outline btn-accent">More info</button>
+                </div>
+              </div>
+            </div>
+            <div class="card shadow-xl image-full">
+              <figure>
+                <img src="https://picsum.photos/id/1005/400/250" />
+              </figure>
+              <div class="justify-end card-body">
+                <h2 class="card-title">Image overlay</h2>
+                <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+                <div class="card-actions">
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+              </div>
+            </div>
+            <div class="card shadow-sm bg-accent text-accent-content">
+              <figure>
+                <img src="https://picsum.photos/id/1005/400/250" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Accent color</h2>
+                <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p>
+                <div class="card-actions">
+                  <button class="btn btn-secondary">More info</button>
+                </div>
+              </div>
+            </div>
+
+
+        </div>
+        
+
         <div className="divider"></div> 
         <div className="grid h-20 card bg-base-300 rounded-box place-items-center fonte-branca">
           jonathan.eng.br - 2021
